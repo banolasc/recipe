@@ -42,14 +42,46 @@ table {
     border-spacing: 0;
 }
 /*css reset end */
+
+*{
+    margin: 0;
+    padding:0;
+    align-items: center;
+} 
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+  }
+  h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+  }
+  h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+  }
 img{
     max-width:100%;
 }
 body{
-    width: 414px;
     margin: auto 0;
+    width: 414px;
+    background-color:rgba(122, 191, 191, 0.5);
+
+}
+.Side-dishes{
+    background-color: #7abfbf;
+}
+.Side-title{
+    text-align: center;
 }
 
+.side_details{
+    margin-left: 10px;
+}
+.checked {
+    color: orange;
+  }
 h1{
     text-align: center;
 }
@@ -64,4 +96,17 @@ li>a{
 }
 ul li{
     list-style-type: none;
+}
+@media screen and(min-width: 768px){
+    body{
+        margin: auto 0;
+        width:768px;
+    }
+}
+@media screen and(min-width: 1280px){
+    body{
+        margin:auto 0;
+        width: 1280px;
+    }
+    
 }
