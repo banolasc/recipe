@@ -69,6 +69,7 @@ body{
   
 
 }
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -139,8 +140,8 @@ ul li{
    body{
     width: 1280px;
    }
-   img{
-    align-content: center;
-   }
+   #bigImage img{
+    width: 100%;
+    }
    
 }
