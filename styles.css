@@ -81,7 +81,12 @@ p {
 .Side-title{
     text-align: center;
 }
+.social-links{
+   justify-content: center;
+   align-items: center;
+   align-content: center;
 
+}
 .side_details{
     margin-left: 10px;
 }
