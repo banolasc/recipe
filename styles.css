@@ -43,11 +43,9 @@ table {
 }
 /*css reset end */
 
-*{
-    margin: 0;
-    padding:0;
-    align-items: center;
-} 
+html{
+    background-color:rgba(122, 191, 191, 0.5);
+}
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
@@ -63,14 +61,21 @@ h1 {
 img{
     max-width:100%;
 }
-body{
-    margin: auto 0;
+body{ 
     width: 414px;
-    background-color:rgba(122, 191, 191, 0.5);
+    margin: 0 auto;
+    background-color: #F2F2F2;
+
+  
 
 }
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+  }
 .Side-dishes{
     background-color: #7abfbf;
+    display: grid;
 }
 .Side-title{
     text-align: center;
@@ -91,22 +96,51 @@ h1{
     
     text-align: center;
 }
+.mainNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    z-index: 9999;
+
+}
+
+.breakfast{
+    width: 50px;
+}
+.appetizers{
+    width: 50px;
+}
+.desserts{
+    width: 50px;
+}
+.brunch{
+    width: 50px;
+}
+.lunch{
+    width: 50px;
+}
+.dinner{
+    width:50px;
+}
+.beverages{
+    width:50px;
+}
 li>a{
     text-decoration: none;
 }
 ul li{
     list-style-type: none;
 }
-@media screen and(min-width: 768px){
+@media screen and (min-width: 768px){
     body{
-        margin: auto 0;
-        width:768px;
+        width: 768px;
     }
 }
-@media screen and(min-width: 1280px){
-    body{
-        margin:auto 0;
-        width: 1280px;
-    }
-    
+@media screen and (min-width: 1280px){
+   body{
+    width: 1280px;
+   }
+   img{
+    align-content: center;
+   }
+   
 }
